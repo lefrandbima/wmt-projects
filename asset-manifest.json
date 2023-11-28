@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wmt-projects/static/css/main.e0a7289d.css",
-    "main.js": "/wmt-projects/static/js/main.6a49ee7f.js",
+    "main.js": "/wmt-projects/static/js/main.225fa710.js",
     "static/js/94.cc0d4e34.chunk.js": "/wmt-projects/static/js/94.cc0d4e34.chunk.js",
     "static/js/914.62530892.chunk.js": "/wmt-projects/static/js/914.62530892.chunk.js",
     "static/js/333.f8c7887f.chunk.js": "/wmt-projects/static/js/333.f8c7887f.chunk.js",
@@ -45,7 +45,7 @@
     "static/js/419.6825700c.chunk.js": "/wmt-projects/static/js/419.6825700c.chunk.js",
     "index.html": "/wmt-projects/index.html",
     "main.e0a7289d.css.map": "/wmt-projects/static/css/main.e0a7289d.css.map",
-    "main.6a49ee7f.js.map": "/wmt-projects/static/js/main.6a49ee7f.js.map",
+    "main.225fa710.js.map": "/wmt-projects/static/js/main.225fa710.js.map",
     "94.cc0d4e34.chunk.js.map": "/wmt-projects/static/js/94.cc0d4e34.chunk.js.map",
     "914.62530892.chunk.js.map": "/wmt-projects/static/js/914.62530892.chunk.js.map",
     "333.f8c7887f.chunk.js.map": "/wmt-projects/static/js/333.f8c7887f.chunk.js.map",
@@ -89,6 +89,6 @@
   },
   "entrypoints": [
     "static/css/main.e0a7289d.css",
-    "static/js/main.6a49ee7f.js"
+    "static/js/main.225fa710.js"
   ]
 }

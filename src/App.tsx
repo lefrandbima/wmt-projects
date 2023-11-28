@@ -19,7 +19,7 @@ import Alert from './pages/Alert';
 
 function App() {
   return (
-    <BrowserRouter basename='/'>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />

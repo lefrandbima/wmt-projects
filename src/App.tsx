@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter , Routes, Route } from "react-router-dom";
-import Home from './pages/Home';
+import Index from './pages/Index'
 import Dashboard from './pages/user/Dashboard';
 import WasteInput from './pages/user/WasteInput';
 import Tracking from './pages/user/Tracking';
@@ -21,7 +21,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Index />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/wasteinput" element={<WasteInput />} />
         <Route path="/tracking" element={<Tracking />} />

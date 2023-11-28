@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter , Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Dashboard from './pages/user/Dashboard';
 import WasteInput from './pages/user/WasteInput';
@@ -19,7 +19,7 @@ import Alert from './pages/Alert';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
@@ -34,7 +34,7 @@ function App() {
         <Route path="/forbidden" element={<ForbiddenPage />} />
         <Route path="/alert" element={<Alert />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
